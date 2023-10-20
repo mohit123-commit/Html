@@ -158,17 +158,44 @@
       </audio> -->
 
       <!-- -----------------------day-3-------------------------------------------- -->
-      <form action="">
-        name  :   <input type="text" >
-                <br><br>
-        Email :   <input type="email" >  
-                <br><br>
-        Password : <input type="password"> 
-                <br><br>
-        Gender : <input type="radio" name="gender">Male
-                  <input type="radio" name="gender">Female
+      <fieldset>
+        <h1>Fill Your Form :</h1>
+
+        <form action="" method="post">
+          name  :   <input type="text" placeholder="enter your name" autofocus required>
                   <br><br>
-        <button>submit</button>
+          Email :   <input type="email" placeholder="enter your Email" value="mohit@gamil.com" disabled>  
+                  <br><br>
+
+                  <label for="pass" style="color: red;"> Password :</label>
+          <input type="password" id="pass"> 
+                  <br><br>
+
+          Gender : <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <br><br>
+           
+          language : <input type="checkbox">Hindi
+                     <input type="checkbox">English
+                     <input type="checkbox">Marwadi   <br><br>
+  
+          Age : <input type="number">     <br><br>
+          File : <input type="file">        <br><br>
+          Date : <input type="Date">        <br><br>
+          Time : <input type="time">          <br><br>
+          color : <input type="color">         <br><br>
+          Range : <input type="range">         <br><br>
+          Search : <input type="search">         <br><br>
+          Hidden : <input type="hidden">          <br><br>
+         
+          <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>   <br><br>
+
+          <input type="submit">  
+          <input type="reset">           <br><br>
+
+          <button>submit</button>
+
+      </fieldset>
       </form>
    
   </body>
