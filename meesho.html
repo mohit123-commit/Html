@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            /* border: 2px solid black; */
+            min-width: 1000px;
+        }
+        .header{
+            border: 1px solid gray;
+            height: 12%;
+            display: flex;
+            justify-content: center;
+            min-width: 1000px;
+        }
+        .head1{
+            width: 10%;
+            /* border: 2px solid green; */
+        }
+        .head2{
+            width: 30%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .head3{
+            width: 50%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .head2 input{
+            width: 90%;
+            height: 60%;
+            border-radius: 5px;
+        }
+        .content{
+            /* border: 2px solid blue; */
+            border-right: 3px solid grey;
+            width: 24%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+        .phone1{
+            /* border: 2px solid salmon; */
+            width: 15%;
+            height: 65%;
+        }
+        .phone2{
+            /* border: 2px solid seagreen; */
+            width: 70%;
+        }
+        .con{
+            border-right: 0px;
+        }
+        span{
+            
+            font-size: large;
+        }
+        .medium{
+            height: 88%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(245, 210, 223);
+        }
+        .logo{
+            height: 90%;
+            width: 25%;
+            /* border: 2px solid black; */
+            border-radius: 15px;
+            background-color: white;
+        }
+        .last1{
+            /* border: 2px dotted darkmagenta; */
+            height: 32%;
+        }
+        .last2{
+            /* border: 2px dotted darkmagenta; */
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+        }
+        .last3{
+            /* border: 2px dotted darkmagenta; */
+            height: 38%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            
+        }
+        .detail{
+            width: 80%;
+             /* border: 2px solid brown; */
+        }
+        .del1{
+            height: 25%;
+            font-size: large;
+        }
+        .del2{
+            height: 38%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        
+        }
+        .del3{
+            height: 28%;
+        }
+        button{
+            height: 100%;
+            width: 100%;
+            border: none;
+            background-color: rgb(226, 43, 192);
+            color: white;
+            font-size: medium;
+            border-radius: 4px;
+        }
+        .foot{
+            /* border: 2px dotted darkblue; */
+            height: 8%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: gray;
+            
+        }
+        .ft2{
+            color: rgb(226, 43, 192);
+            margin-bottom: 20px;
+        }
+        .contact{
+            /* border: 2px dotted darkgoldenrod; */
+            width: 30%;
+            color: gray;
+            height: 40%;
+        }
+        .cont2{
+            width: 65%;
+            /* height: 40%; */
+        }
+        .cont3{
+            color: #000;
+            border-bottom: 2px solid gray;
+        }
+        .cont4{
+            width: 65%;
+            border-bottom:2px solid red ;
+        }
+        .cont4 input{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <div class="head1">
+            <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2023/4/25/w900X450/Meesho_logo.png?w=400&dpr=2.6" alt="">
+        </div>
+        <div class="head2">
+            <input type="text" placeholder="Try Saree,Kurti or Search by Product Code">
+        </div>
+        <div class="head3">
+            <div class="content">
+                <div class="phone1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/0/191.png" alt="">
+                </div>
+                <div class="phone2">
+                    <span>Download App</span>
+                </div>
+            </div>
+            <div class="content">
+                <span>Become a Supplier</span>
+            </div>
+            <div class="content con">
+                <span>newsroom</span>
+            </div>
+        </div>
+    </div>
+    <div class="medium">
+        <div class="logo">
+            <div class="last1">
+                <img src="https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
+            </div>
+            <div class="last2">
+                <div class="detail del1">
+                    Sign up to view your profile
+                </div>
+                <div class="detail del2">
+                    <div class="contact cont1">
+                        Country
+                    </div>
+                    <div class="contact cont2">
+                       
+                    </div>
+                    <div class="contact cont3">
+                       IN +91
+                    </div>
+                    <div class="contact cont4">
+                        <input type="phone number" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="detail del3">
+                    <button>Continue</button>
+                </div>
+            </div>
+            <div class="last3">
+                <div class="foot ft1">
+                   <h5> By continuing,you agree to Meesho's</h5>
+                </div>
+                <div class="foot ft2">
+                    <h5>Terms & Condition <span style="color: gray;"> and </span> Privacy Policy</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+
+
+</html>
