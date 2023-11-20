@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            /* border: 2px solid black; */
+        }
+        .header{
+            height: 10%;
+            border: 1px solid grey;
+            display: flex;
+            justify-content: space-between;
+        }
+        .headd{
+            width: 18%;
+            /* border: 2px dotted darkmagenta; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .menu{
+            height: 50%;
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .m1{
+            width: 13%;
+
+        }
+        .m2{
+            width: 13%;
+            
+        }
+        .m3{
+            width: 50%;
+            font-size: 200%;
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .logo{
+            height: 50%;
+            width: 20%;
+            /* border: 2px solid blue; */
+            display: flex;
+        }
+        .hright{
+            width: 11%;
+        }
+        .bottom{
+            height: 90%;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+        .bot1{
+            width: 20%;
+            border: 1px solid grey;
+        }
+        .bot2{
+            width: 70%;
+            /* border: 2px solid darkolivegreen; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: end;
+        }
+        .bleft1{
+            height: 15%;
+            /* border: 2px dotted darkgreen; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .bleft2{
+            height: 70%;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+        }
+        .bleft3{
+            height: 15%;
+            /* border: 2px dotted darkgreen; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .four{
+            height: 30%;
+            /* border: 2px solid blueviolet; */
+            display: flex;
+            align-items: center;
+        }
+        .f1,.f3{
+            width: 12%;
+        }
+        .f2,.f4{
+            width: 77%;
+        }
+        .six{
+            height: 46%;
+            width: 30%;
+            border: 1px solid grey;
+            border-radius: 10px;
+        }
+        .content1{
+            height: 30%;
+            /* border: 2px dotted darkgoldenrod; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(225, 123, 176);
+            border-top-right-radius:10px ;
+            border-top-left-radius:10px ;
+        }
+        .content2{
+            height: 50%;
+            /* border: 2px dotted darkgoldenrod; */
+        }
+        .content3{
+            height: 20%;
+            border-top: 1px solid grey;
+            display: flex;
+            
+            
+        }
+        .se{
+            display: flex;
+            align-items: center;
+            /* border: 2px solid darkgreen; */
+            background-color:rgb(225, 123, 176) ;
+            color: white;
+        }
+        .sess1{
+            height: 50%;
+            display: flex;
+            width: 90%;
+          
+
+            
+        }
+        .sess2{
+            height: 20%;
+            width: 90%;
+            
+        }
+        .sess3{
+            height: 20%;
+            width: 90%;
+           
+        }
+        .two1{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            /* border: 2px solid gold; */
+
+        }
+        .two2{
+            width: 8%;
+            /* border: 2px solid gold; */
+            height: 50%;
+            background-color: rgb(225, 123, 176) ;
+        }
+        .end1{
+            width: 70%;
+        }
+        .end2{
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        .e1{
+            height: 45%;
+            width: 25%;
+            /* border: 2px solid hotpink; */
+        }
+        .enroll{
+            height: 10%;
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .en1{
+            width: 12%;
+            height: 80%;
+            /* border: 2px dotted darkgoldenrod; */
+        }
+        .en2{
+            width: 80%;
+            height: 80%;
+            /* border: 2px dotted darkgoldenrod; */
+            display: flex;
+            align-items: center;
+        }
+        i{
+            font-size: 26px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headd hleft">
+                <div class="menu m1">
+                    <img src="https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/menu-512.png" alt="">
+                </div>
+                <div class="menu m2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt="">
+                </div>
+                <div class="menu m3">
+                    Classroom
+                </div>
+            </div>
+            <div class="headd hright">
+                <div class="logo">
+                    <img src="https://png.pngtree.com/element_our/sm/20180516/sm_5afbe35ff3ec9.jpg" alt="">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-dots-nine-3602636-3003318.png" alt="">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/61/61205.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="bot1">
+                <div class="bleft1">
+                    <div class="four f1">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="four f2">
+                        Home
+                    </div>
+                    <div class="four f3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Calendar_icon_2.svg/1978px-Calendar_icon_2.svg.png" alt="">
+                    </div>
+                    <div class="four f4">
+                        Calender
+                    </div>
+                </div>
+                <div class="bleft2">
+                    <div class="enroll">
+                        <div class="en1">
+                            <img src="data:image/png;base64,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" alt="">
+                        </div>
+                        <div class="en2">
+                            Enrolled
+                        </div>
+                    </div>
+                    <div class="enroll">
+                        <div class="en1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE1fiXyYH_-8y1fD3c4MPEOJex1Yu9o58b0-zW0GyzZEEufXUSMRqESvk5p0D9NLabW7A&usqp=CAU" alt="">
+                        </div>
+                        <div class="en2">
+                            To-do
+                        </div>
+                    </div>
+                </div>
+                <div class="bleft3">
+                    <div class="four f1">
+                        <img src="data:image/png;base64,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" alt="">
+                    </div>
+                    <div class="four f2">
+                        Archived Classes
+                    </div>
+                    <div class="four f3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/126/126472.png" alt="">
+                    </div>
+                    <div class="four f4">
+                        Settings
+                    </div>
+                </div>
+            </div>
+            <div class="bot2">
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six">
+                    <div class="content1">
+                        <div class="se sess1">
+                          <div class="two1">
+                            <h2>Frontend Sessions</h3>
+                          </div>
+                          <div class="two2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png" alt="">
+                          </div>
+                        </div>
+                        <div class="se sess2">
+                            Batch-H Physical JP
+                        </div>
+                        <div class="se sess3">
+                            REGex Software
+                        </div>
+                    </div>
+                    <div class="content2"></div>
+                    <div class="content3">
+                        <div class="end1"></div>
+                        <div class="end2">
+                            <div class="e1">
+                                <img src="https://icons.veryicon.com/png/o/education-technology/ui-icon/contacts-77.png" alt="">
+                            </div>
+                            <div class="e1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG26ZTpH-BBwLyZS-YR9WRMkczq3LdZtBzMA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
